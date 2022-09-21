@@ -9,13 +9,13 @@ export default class ProductItem extends Component {
                 <div className="card-body">
                     <h5 className="card-title">{shoes.name}</h5>
                     <div className='card-icon'>
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
+                    <i className="fa-solid fa-star"></i>
+                    <i className="fa-solid fa-star"></i>
+                    <i className="fa-solid fa-star"></i>
+                    <i className="fa-solid fa-star"></i>
+                    <i className="fa-solid fa-star"></i>
                     </div>
-                    <p className="card-text">{shoes.price} <span style={{['vertical-align']: 'super'}}>$</span></p>
+                    <p className="card-text">{shoes.price} $</p>
                     <div className='card-bottom'>
                         <button onClick={() => {
                             showDetail(shoes)

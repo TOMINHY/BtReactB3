@@ -34,7 +34,7 @@ export default class ComponentModal extends Component {
                                             </tr>
                                             <tr>
                                                 <td>Price</td>
-                                                <td>{chiTietShoes.price} <span style={{['vertical-align']: 'super'}}>$</span></td>
+                                                <td>{chiTietShoes.price} $</td>
                                             </tr>
                                             <tr>
                                                 <td>Description</td>
